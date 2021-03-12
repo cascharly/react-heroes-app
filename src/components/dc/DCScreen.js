@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const DCScreen = () => {
+export const DcScreen = () => {
     return (
         <div>
             <h1>DC Screen</h1>
