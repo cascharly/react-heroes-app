@@ -16,6 +16,7 @@ export const SearchScreen = ({ history }) => {
     const { searchText } = formValues;
     
     const heroesFiltered = useMemo(() => getHeroesByName( q ), [q])
+    // const heroesFiltered = getHeroesByName(searchText)
 
     const handleSearch = (e) => {
         e.preventDefault();
@@ -71,7 +72,7 @@ export const SearchScreen = ({ history }) => {
                         (q !=='' && heroesFiltered.length === 0 ) 
                             && 
                             <div className="alert alert-danger">
-                                There is no a hero with { q }
+                                There is no a hero with <strong>{ q }</strong>
                             </div>
                     }
 
