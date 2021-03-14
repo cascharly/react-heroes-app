@@ -17,7 +17,7 @@ export const HeroCard = ({
         <div className="col-md-4">
           <Link to={`./hero/${id}`}>
             <img
-              src={`react-heroes-app/assets/heroes/${id}.jpg`}
+              src={`/assets/heroes/${id}.jpg`}
               className="card-img"
               alt={superhero}
             />
