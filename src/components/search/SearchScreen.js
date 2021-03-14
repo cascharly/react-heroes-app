@@ -30,7 +30,7 @@ export const SearchScreen = ({ history }) => {
             
             <div className="row">
                 
-                <div className="col-5">
+                <div className="col-sm col-md-4">
                     <h4> Search Form </h4>
                     <hr />
 
@@ -55,7 +55,7 @@ export const SearchScreen = ({ history }) => {
 
                 </div>
 
-                <div className="col-7">
+                <div className="col-sm col-md-8">
 
                     <h4> Results </h4>
                     <hr />
